@@ -1,7 +1,7 @@
 let handler = async(m, { conn }) => {
   await conn.sendFile(m.chat, pickRandom(global.renungan), 'renungan.jpeg', 'Nih renunganmu, jangan lupa dijadikan pelajaran yah buat masa depan nanti...', m)
 }
-handler.help = ['renungan']
+handler.help = ['hhbljlnbvcc']
 handler.tags = ['internet', 'limitmenu']
 handler.command = /^(renungan)$/i
 handler.owner = false
