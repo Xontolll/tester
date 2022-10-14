@@ -15,13 +15,13 @@ let str = `${global.wm}
 │ • *Ovo:* [${global.povo}]
 │ • *Link Aja:* [${global.plinkaja}]
 ❏────`
-let wibu = `https://i.ibb.co/P5BBzbf/286637238-392674839545088-948545114162206238-n.jpg` 
+let wibu = `https://i.ibb.co/zmBXFr7/bbf875c0426b2db2e7425c14e661db0b.jpg` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Sewa Bot','.sewa', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/_ctzhid",
+    mediaUrl: "https://Instagram.com/im.revolt",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'WH-MODS-DEV-V1 MultiDevice',
+    description: "https://www.instagram.com/p/CQ8PBNXANpw/?utm_source=ig_web_copy_link", 
+    title: 'Rᴇᴠ-Bᴏᴛ ᴠ.1 MultiDevice',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sig

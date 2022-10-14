@@ -44,7 +44,7 @@ export async function before(m, { conn, args, usedPrefix, command, isAdmin, isBo
     global.db.data.users[m.sender].warn += 1
     global.db.data.users[m.sender].banned = true
     return conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: hapus }})
-        } else if (!bot.restrict) return m.reply('Semoga harimu suram!')
+        } else if (!bot.restrict) return m.reply('Semoga Harimu Suram!')
     }
     return !0
 }

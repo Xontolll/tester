@@ -25,7 +25,7 @@ let jadibot = jadbot[Math.floor(Math.random() * jadbot.length)]
           key: m.key,
         }})
    setTimeout(() => {
-        conn.reply(m.chat, `mau jadibot? Ketik .sewa ${jadibot}`, m)
+        conn.reply(m.chat, `mau jadi bot? Ketik .sewa ${jadibot}`, m)
     }, 1000)
     }
 
@@ -33,7 +33,7 @@ let jadibot = jadbot[Math.floor(Math.random() * jadbot.length)]
 /* - - - - - - - Ini autoresponder - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-let regs = /(aku cinta kamu)/i
+let regs = /(aku cinta kamu|Aku Cinta Kamu)/i
     let isCintaKamu = regs.exec(m.text)
     let cinmu = [
 '❤️',
@@ -48,7 +48,7 @@ let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
           key: m.key,
         }})
    setTimeout(() => {
-        conn.reply(m.chat, `Aku juga sayang kamu ${cintakamuh}`, m)
+        conn.reply(m.chat, `Aku Juga Cinta Kamu ${cintakamuh}`, m)
     }, 1000)
     }
     
@@ -56,7 +56,7 @@ let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
 /* - - - - - - - Ini autoresponder by arie - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-    let regc = /(aku sayang kamu)/i
+    let regc = /(aku sayang kamu|Aku Sayang Kamu)/i
     let isSayangKamu = regc.exec(m.text)
     let saymu = [
 '❤️',
@@ -71,7 +71,7 @@ let sayangkamuh = saymu[Math.floor(Math.random() * saymu.length)]
           key: m.key,
         }})
    setTimeout(() => {
-        conn.reply(m.chat, `Aku juga sayang kamu ${sayangkamuh}`, m)
+        conn.reply(m.chat, `Aku Juga Sayang Kamu ${sayangkamuh}`, m)
     }, 1000)
     }
     
@@ -79,7 +79,7 @@ let sayangkamuh = saymu[Math.floor(Math.random() * saymu.length)]
 /* - - - - - - - Ini autoresponder - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-    let regl = /(I love you|love you)/i
+    let regl = /(I love you|love you|lopyu)/i
     let isLoveYou = regl.exec(m.text)
     let lovou = [
 '❤️',
@@ -88,14 +88,14 @@ let sayangkamuh = saymu[Math.floor(Math.random() * saymu.length)]
 ]
 let loveyou = lovou[Math.floor(Math.random() * lovou.length)]
     if (isLoveYou && !m.fromMe) {
-    let helloaine = fs.readFileSync('./mp3/PTT-20211218-WA0243.opus') 
+    let hello = fs.readFileSync('./mp3/Bot.opus') 
     conn.sendMessage(m.chat, {
         react: {
           text: `${loveyou}`,
           key: m.key,
         }})
    setTimeout(() => {
-        conn.sendFile(m.chat, helloaine, '', '', m, true)
+        conn.sendFile(m.chat, hello, '', '', m, true)
     }, 1000)
     }
     
@@ -103,7 +103,7 @@ let loveyou = lovou[Math.floor(Math.random() * lovou.length)]
 /* - - - - - - - Ini autoresponder by wh mods dev - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
     
-    let ass = /(assalamualaikum|assallamualaikum|assalamu\'alaikum|as\'salamualaikum)/i
+    let ass = /(Syalom|syalom|Shalom|shalom|Syaloom|syaloom|shaloom|Shaloom)/i
     let isAss = ass.exec(m.text)
     let assal = [
 '🥰',
@@ -112,14 +112,14 @@ let loveyou = lovou[Math.floor(Math.random() * lovou.length)]
 ]
 let assl = assal[Math.floor(Math.random() * assal.length)]
     if (isAss && !m.fromMe) {
-    let assalamualaikum = fs.readFileSync('./mp3/waalaikumsalam.ogg')
+    let lopyu = fs.readFileSync('./mp3/ILoveyouPatrickStarSpongebob.mp3')
     conn.sendMessage(m.chat, {
         react: {
           text: `${assl}`,
           key: m.key,
         }})
     setTimeout(() => {
-    conn.sendFile(m.chat, assalamualaikum, '', '', m, true)
+    conn.sendFile(m.chat, lopyu, '', '', m, true)
     }, 1000)
     }
 

@@ -20,17 +20,16 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : WH-MODS-Dev
-${htjava} *✉️ Nama RL* : HAMBA ALLAH
-${htjava} *♂️ Gender* : Boys
-${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : 18
+${htjava} *💌 Nama* : Rᴇᴠᴏʟᴛ [リコ]
+${htjava} *♂️ Gender* : Mᴀʟᴇ
+${htjava} *⛪ Agama* : Kʀɪsᴛᴇɴ Pʀᴏᴛᴇsᴛᴀɴ
+${htjava} *⏰ Tanggal lahir* : Pʀɪᴠᴀᴛᴇ 🥶
+${htjava} *🎨 Umur* : 20+
 ${htjava} *🧮 Kelas* : SUDAH TAMAT
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP "MODDER WHATSAPP"
-${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Indo, Depok, Jawa Barat
-${htjava} *❤️ Waifu* : -
+${htjava} *🧩 Hobby* : Bᴀɴʏᴀᴋ [Dᴏᴍɪɴᴀɴ Kᴇ Bᴀɢɪᴀɴ Tᴇᴋɴᴏʟᴏɢɪ/ Iᴛ]
+${htjava} *💬 Sifat* : Yᴀ Nᴅᴀᴋ Tᴀᴜ Kᴏᴋ Tᴀɴʏᴀ Sᴀʏᴀ
+${htjava} *🗺️ Tinggal* : Indo, Mᴇᴅᴀɴ, Sᴜᴍᴀᴛᴇʀᴀ Uᴛᴀʀᴀ
+${htjava} *❤️ Waifu* : Nᴏᴛ Hᴀᴠᴇ
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}

@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, command }) => {
-	let url = 'https://api.xteam.xyz/randomimage/jahy?APIKEY=ebb6251cc00f9c63'
+	let url = 'https://api.xteam.xyz/randomimage/jahy?APIKEY=654a824b9220c199'
 	conn.sendButton(m.chat, 'Wangy wangy (≧ω≦)', wm, await(await fetch(url)).buffer(), [['Next',`.${command}`]],m)
 }
 handler.command = /^(jahy)$/i
