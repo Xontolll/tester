@@ -35,7 +35,7 @@ let apil = '?apikey=8e66d0934cf741bfd2182c16'
 
 //> Xteam
 let xres = 'https://api.xteam.xyz/randomimage/'
-let xapi = '?APIKEY=ebb6251cc00f9c63'
+let xapi = '?APIKEY=654a824b9220c199'
 //--------------------------------
 
 // ••••••••••••••••• OPTIONS •••••••••••
