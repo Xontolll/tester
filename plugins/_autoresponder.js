@@ -112,7 +112,7 @@ let loveyou = lovou[Math.floor(Math.random() * lovou.length)]
 ]
 let assl = assal[Math.floor(Math.random() * assal.length)]
     if (isAss && !m.fromMe) {
-    let lopyu = fs.readFileSync('./mp3/ILoveyouPatrickStarSpongebob.mp3')
+    let lopyu = fs.readFileSync('Shalom Kak 😇')
     conn.sendMessage(m.chat, {
         react: {
           text: `${assl}`,
