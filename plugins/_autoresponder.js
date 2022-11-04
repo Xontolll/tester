@@ -10,7 +10,7 @@ handler.all = async function (m, { isBlocked }) {
 /* - - - - - - - Ini autoresponder - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-let regj = /(.jadibotak)/i
+let regj = /(.jadibotak|.jadibot)/i
     let isJadibot = regj.exec(m.text)
     let jadbot = [
 '🤖',
@@ -102,26 +102,26 @@ let loveyou = lovou[Math.floor(Math.random() * lovou.length)]
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - */
 /* - - - - - - - Ini autoresponder by wh mods dev - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-    
-    let ass = /(Syalom|syalom|Shalom|shalom|Syaloom|syaloom|shaloom|Shaloom)/i
-    let isAss = ass.exec(m.text)
-    let assal = [
+    let regcz = /(Syalom|syalom|Shalom|shalom|Syaloom|syaloom|shaloom|Shaloom)/i
+    let isShalom = regcz.exec(m.text)
+    let shal = [
+'❤️',
 '🥰',
-'😇',
-'😅'
+'😍'
 ]
-let assl = assal[Math.floor(Math.random() * assal.length)]
-    if (isAss && !m.fromMe) {
-    let lopyu = fs.readFileSync('Shalom Kak 😇')
+let syalom = shal[Math.floor(Math.random() * shal.length)]
+    if (isShalom && !m.fromMe) {
     conn.sendMessage(m.chat, {
         react: {
-          text: `${assl}`,
+          text: `${syalom}`,
           key: m.key,
         }})
-    setTimeout(() => {
-    conn.sendFile(m.chat, lopyu, '', '', m, true)
+   setTimeout(() => {
+        conn.reply(m.chat, `Shalom Juga Kak 😇 ${syalom}`, m)
     }, 1000)
     }
+
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - */
 /* - - - - - - - Ini autoresponder by wh mods dev - - - - - - - */
